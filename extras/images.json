@@ -1,0 +1,87 @@
+{
+    "SystemImageDownloader": {
+        "BuildsCompatible": null,
+        "EnableCompatibilityBuildController": true,
+        "Message_BuildNotCompatible": [
+            "The build that you are currently using is outdated.",
+            "To use the newest functionality of using the images, get the latest version of the System Image Downloader.",
+            "",
+            ""
+        ]
+    },
+    "Images": [
+        {
+            "Device": "Pixel 7 Pro",
+            "Codename": "cheetah",
+            "Versions": [
+                {
+                    "FullVersionName": "13.0.0 (TD1A.220804.009.A2, Oct 2022)",
+                    "Version": "13.0.0",
+                    "BuildVersion": "TD1A.220804.009.A2",
+                    "BuildDate": "Oct 2022",
+                    "Extras": [],
+                    "Link": "https://dl.google.com/dl/android/aosp/cheetah-td1a.220804.009.a2-factory-8e7393e1.zip"
+                },
+                {
+                    "FullVersionName": "13.0.0 (TD1A.220804.009.A5, Oct 2022, JP carriers)",
+                    "Version": "13.0.0",
+                    "BuildVersion": "TD1A.220804.009.A5",
+                    "BuildDate": "Oct 2022",
+                    "Extras": [
+                        "JP carriers"
+                    ],
+                    "Link": "https://dl.google.com/dl/android/aosp/cheetah-td1a.220804.009.a5-factory-c68659bd.zip"
+                },
+                {
+                    "FullVersionName": "13.0.0 (TD1A.220804.031, Oct 2022)",
+                    "Version": "13.0.0",
+                    "BuildVersion": "TD1A.220804.031",
+                    "BuildDate": "Oct 2022",
+                    "Extras": [],
+                    "Link": "https://dl.google.com/dl/android/aosp/cheetah-td1a.220804.031-factory-6152f6f3.zip"
+                }
+            ]
+        },
+        {
+            "Device": "Pixel 7",
+            "Codename": "panther",
+            "Versions": [
+                {
+                    "FullVersionName": "13.0.0 (TD1A.220804.009.A2, Oct 2022)",
+                    "Version": "13.0.0",
+                    "BuildVersion": "TD1A.220804.009.A2",
+                    "BuildDate": "Oct 2022",
+                    "Extras": [],
+                    "Link": "https://dl.google.com/dl/android/aosp/panther-td1a.220804.009.a2-factory-336ba5c1.zip"
+                },
+                {
+                    "FullVersionName": "13.0.0 (TD1A.220804.009.A5, Oct 2022, JP carriers)",
+                    "Version": "13.0.0",
+                    "BuildVersion": "TD1A.220804.009.A5",
+                    "BuildDate": "Oct 2022",
+                    "Extras": [
+                        "JP carriers"
+                    ],
+                    "Link": "https://dl.google.com/dl/android/aosp/panther-td1a.220804.009.a5-factory-3c42ee81.zip"
+                },
+                {
+                    "FullVersionName": "13.0.0 (TD1A.220804.031, Oct 2022)",
+                    "Version": "13.0.0",
+                    "BuildVersion": "TD1A.220804.031",
+                    "BuildDate": "Oct 2022",
+                    "Extras": [],
+                    "Link": "https://dl.google.com/dl/android/aosp/panther-td1a.220804.031-factory-2f036a47.zip"
+                }
+            ]
+        },
+        {
+            "Device": "Pixel 6a",
+            "Codename": "bluejay",
+            "Versions": [
+                {
+                    "": ""
+                }
+            ]
+        }
+    ]
+}
