@@ -1,0 +1,10 @@
+{
+    "SystemImageDownloader": {
+        "CompatibleSince": "",
+        "EnableCompatibilityBuildController": true,
+        "Message_BuildNotCompatible": [
+            "You are currently using an outdated version of \"Android SysImg Downloader\".",
+            "To be able to use the latest versions from the System Images, you are required to have a latest version of this product, as the formatting of the \"images.json\" has been changed."
+        ]
+    }
+}

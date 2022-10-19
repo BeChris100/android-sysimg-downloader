@@ -84,10 +84,6 @@ public class RuntimeEnvironment {
         return OS_NAME.toLowerCase().contains("mac");
     }
 
-    public static boolean isSunOs() {
-        return OS_NAME.toLowerCase().contains("sunos");
-    }
-
     public static String getHostName() {
         if (HOST_NAME != null)
             return HOST_NAME;

@@ -1,8 +1,10 @@
 package com.sysimg.downloader.update;
 
+import com.sysimg.downloader.client.Build;
 import org.jetbrains.annotations.NotNull;
 import org.json.JSONArray;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -19,7 +21,7 @@ public class UpdateManager {
             String urlDownload = filesRoot.getJSONObject(i).getString("browser_download_url");
             long size = filesRoot.getJSONObject(i).getLong("size");
 
-            UpdateFile updateFile = new UpdateFile(name, urlDownload, size);
+            UpdateFile updateFile = new UpdateFile(name, urlDownload, size, name.contains("bin"));
 
             if (updateFiles.contains(updateFile))
                 continue;
@@ -30,8 +32,8 @@ public class UpdateManager {
         return updateFiles;
     }
 
-    public static @NotNull List<UpdateData> listUpdates() throws Exception {
-        URL url = new URL("https://api.github.com/repos/BeChris100/aosp-ftp-client/releases");
+    public static @NotNull List<UpdateData> listUpdates(String urlLink) throws IOException {
+        URL url = new URL(urlLink);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         conn.setRequestMethod("GET");
 
@@ -53,6 +55,34 @@ public class UpdateManager {
         }
 
         return updatesList;
+    }
+
+    public static boolean hasUpdate(@NotNull List<UpdateData> updatesList) {
+        String[] splits = Build.BUILD_VERSION.split("\\.");
+        int current0 = Integer.parseInt(splits[0]);
+        int current1 = Integer.parseInt(splits[1]);
+        int current2 = Integer.parseInt(splits[2]);
+
+        boolean retrievesUpdate = false;
+
+        for (UpdateData data : updatesList) {
+            String tag = data.tag();
+            String[] updateVersion = tag.replaceFirst("v", "").split("\\.");
+
+            if (updateVersion[2].contains("-")) // This can happen, when a pre-release / debug version rolls out
+                updateVersion[2] = updateVersion[2].split("-", 2)[0];
+
+            int split0 = Integer.parseInt(updateVersion[0]);
+            int split1 = Integer.parseInt(updateVersion[1]);
+            int split2 = Integer.parseInt(updateVersion[2]);
+
+            if (split0 > current0 || split1 > current1 || split2 > current2) {
+                retrievesUpdate = true;
+                break;
+            }
+        }
+
+        return retrievesUpdate;
     }
 
 }

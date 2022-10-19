@@ -1,87 +1,470 @@
-{
-    "SystemImageDownloader": {
-        "BuildsCompatible": null,
-        "EnableCompatibilityBuildController": true,
-        "Message_BuildNotCompatible": [
-            "The build that you are currently using is outdated.",
-            "To use the newest functionality of using the images, get the latest version of the System Image Downloader.",
-            "",
-            ""
+[
+    {
+        "Device": "Pixel 7 Pro",
+        "Codename": "cheetah",
+        "Versions": [
+            {
+                "FullVersionName": "13.0.0 (TD1A.220804.009.A2, Oct 2022)",
+                "Version": "13.0.0",
+                "AndroidVersion": 13,
+                "BuildVersion": "TD1A.220804.009.A2",
+                "BuildDate": "Oct 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/cheetah-td1a.220804.009.a2-factory-8e7393e1.zip"
+            },
+            {
+                "FullVersionName": "13.0.0 (TD1A.220804.009.A5, Oct 2022, JP carriers)",
+                "Version": "13.0.0",
+                "AndroidVersion": 13,
+                "BuildVersion": "TD1A.220804.009.A5",
+                "BuildDate": "Oct 2022",
+                "Extras": [
+                    "JP carriers"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/cheetah-td1a.220804.009.a5-factory-c68659bd.zip"
+            },
+            {
+                "FullVersionName": "13.0.0 (TD1A.220804.031, Oct 2022)",
+                "Version": "13.0.0",
+                "AndroidVersion": 13,
+                "BuildVersion": "TD1A.220804.031",
+                "BuildDate": "Oct 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/cheetah-td1a.220804.031-factory-6152f6f3.zip"
+            }
         ]
     },
-    "Images": [
-        {
-            "Device": "Pixel 7 Pro",
-            "Codename": "cheetah",
-            "Versions": [
-                {
-                    "FullVersionName": "13.0.0 (TD1A.220804.009.A2, Oct 2022)",
-                    "Version": "13.0.0",
-                    "BuildVersion": "TD1A.220804.009.A2",
-                    "BuildDate": "Oct 2022",
-                    "Extras": [],
-                    "Link": "https://dl.google.com/dl/android/aosp/cheetah-td1a.220804.009.a2-factory-8e7393e1.zip"
-                },
-                {
-                    "FullVersionName": "13.0.0 (TD1A.220804.009.A5, Oct 2022, JP carriers)",
-                    "Version": "13.0.0",
-                    "BuildVersion": "TD1A.220804.009.A5",
-                    "BuildDate": "Oct 2022",
-                    "Extras": [
-                        "JP carriers"
-                    ],
-                    "Link": "https://dl.google.com/dl/android/aosp/cheetah-td1a.220804.009.a5-factory-c68659bd.zip"
-                },
-                {
-                    "FullVersionName": "13.0.0 (TD1A.220804.031, Oct 2022)",
-                    "Version": "13.0.0",
-                    "BuildVersion": "TD1A.220804.031",
-                    "BuildDate": "Oct 2022",
-                    "Extras": [],
-                    "Link": "https://dl.google.com/dl/android/aosp/cheetah-td1a.220804.031-factory-6152f6f3.zip"
-                }
-            ]
-        },
-        {
-            "Device": "Pixel 7",
-            "Codename": "panther",
-            "Versions": [
-                {
-                    "FullVersionName": "13.0.0 (TD1A.220804.009.A2, Oct 2022)",
-                    "Version": "13.0.0",
-                    "BuildVersion": "TD1A.220804.009.A2",
-                    "BuildDate": "Oct 2022",
-                    "Extras": [],
-                    "Link": "https://dl.google.com/dl/android/aosp/panther-td1a.220804.009.a2-factory-336ba5c1.zip"
-                },
-                {
-                    "FullVersionName": "13.0.0 (TD1A.220804.009.A5, Oct 2022, JP carriers)",
-                    "Version": "13.0.0",
-                    "BuildVersion": "TD1A.220804.009.A5",
-                    "BuildDate": "Oct 2022",
-                    "Extras": [
-                        "JP carriers"
-                    ],
-                    "Link": "https://dl.google.com/dl/android/aosp/panther-td1a.220804.009.a5-factory-3c42ee81.zip"
-                },
-                {
-                    "FullVersionName": "13.0.0 (TD1A.220804.031, Oct 2022)",
-                    "Version": "13.0.0",
-                    "BuildVersion": "TD1A.220804.031",
-                    "BuildDate": "Oct 2022",
-                    "Extras": [],
-                    "Link": "https://dl.google.com/dl/android/aosp/panther-td1a.220804.031-factory-2f036a47.zip"
-                }
-            ]
-        },
-        {
-            "Device": "Pixel 6a",
-            "Codename": "bluejay",
-            "Versions": [
-                {
-                    "": ""
-                }
-            ]
-        }
-    ]
-}
+    {
+        "Device": "Pixel 7",
+        "Codename": "panther",
+        "Versions": [
+            {
+                "FullVersionName": "13.0.0 (TD1A.220804.009.A2, Oct 2022)",
+                "Version": "13.0.0",
+                "AndroidVersion": 13,
+                "BuildVersion": "TD1A.220804.009.A2",
+                "BuildDate": "Oct 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/panther-td1a.220804.009.a2-factory-336ba5c1.zip"
+            },
+            {
+                "FullVersionName": "13.0.0 (TD1A.220804.009.A5, Oct 2022, JP carriers)",
+                "Version": "13.0.0",
+                "AndroidVersion": 13,
+                "BuildVersion": "TD1A.220804.009.A5",
+                "BuildDate": "Oct 2022",
+                "Extras": [
+                    "JP carriers"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/panther-td1a.220804.009.a5-factory-3c42ee81.zip"
+            },
+            {
+                "FullVersionName": "13.0.0 (TD1A.220804.031, Oct 2022)",
+                "Version": "13.0.0",
+                "AndroidVersion": 13,
+                "BuildVersion": "TD1A.220804.031",
+                "BuildDate": "Oct 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/panther-td1a.220804.031-factory-2f036a47.zip"
+            }
+        ]
+    },
+    {
+        "Device": "Pixel 6a",
+        "Codename": "bluejay",
+        "Versions": [
+            {
+                "FulLVersionName": "12.1.0 (SD2A.220601.001.A1, Jun 2022, JP carriers)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SD2A.220601.001.A1",
+                "BuildDate": "Jun 2022",
+                "Extras": [
+                    "JP carriers"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/bluejay-sd2a.220601.001.a1-factory-16c3fe1c.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SD2A.220601.004, Jun 2022, Verizon, Verizon MVNOs)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SD2A.220601.004",
+                "BuildDate": "Jun 2022",
+                "Extras": [
+                    "Verizon",
+                    "Verizon MVNOs"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/bluejay-sd2a.220601.004-factory-5ecedd46.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SD2A.220601.002, Jun 2022, AT&T, T-Mobile)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SD2A.220601.002",
+                "BuildDate": "Jun 2022",
+                "Extras": [
+                    "AT&T",
+                    "T-Mobile"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/bluejay-sd2a.220601.002-factory-928c0c46.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SD2A.220601.003, Jun 2022)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SD2A.220601.003",
+                "BuildDate": "Jun 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/bluejay-sd2a.220601.003-factory-96c1bea8.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SD2A.220601.002.B1, Jul 2022, T-Mobile)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SD2A.220601.002.B1",
+                "BuildDate": "Jul 2022",
+                "Extras": [
+                    "T-Mobile"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/bluejay-sd2a.220601.002.b1-factory-5757bf74.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SD2A.220601.001.B1, Jul 2022, JP carriers)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SD2A.220601.001.B1",
+                "BuildDate": "Jul 2022",
+                "Extras": [
+                    "JP carriers"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/bluejay-sd2a.220601.001.b1-factory-af00d48d.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SD2A.220601.003.B1, Jul 2022)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SD2A.220601.003.B1",
+                "BuildDate": "Jul 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/bluejay-sd2a.220601.003.b1-factory-79324336.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SD2A.220601.004.B2, Jul 2022, Verizon, Verizon MVNOs)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SD2A.220601.004.B2",
+                "BuildDate": "Jul 2022",
+                "Extras": [
+                    "Verizon",
+                    "Verizon MVNOs"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/bluejay-sd2a.220601.004.b2-factory-beedcf39.zip"
+            },
+            {
+                "FullVersionName": "13.0.0 (TP1A.220624.021.A1, Aug 2022)",
+                "Version": "13.0.0",
+                "AndroidVersion": 13,
+                "BuildVersion": "TP1A.220624.021.A1",
+                "BuildDate": "Aug 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/bluejay-tp1a.220624.021.a1-factory-4a2a794f.zip"
+            },
+            {
+                "FullVersionName": "13.0.0 (TP1A.220905.004.A2, Sep 2022)",
+                "Version": "13.0.0",
+                "AndroidVersion": 13,
+                "BuildVersion": "TP1A.220905.004.A2",
+                "BuildDate": "Sep 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/bluejay-tp1a.220905.004.a2-factory-bcfb549e.zip"
+            },
+            {
+                "FullVersionName": "13.0.0 (TP1A.221005.003, Oct 2022)",
+                "Version": "13.0.0",
+                "AndroidVersion": 13,
+                "BuildVersion": "TP1A.221005.003",
+                "BuildDate": "Oct 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/bluejay-tp1a.221005.003-factory-79e6bc1a.zip"
+            }
+        ]
+    },
+    {
+        "Device": "Pixel 6",
+        "Codename": "oriole",
+        "Versions": [
+            {
+                "FullVersionName": "12.0.0 (SD1A.210817.015.A4, Oct 2021)",
+                "Version": "12.0.0",
+                "AndroidVersion": 12,
+                "BuildVersion": "SD1A.210817.015.A4",
+                "BuildDate": "Oct 2021",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sd1a.210817.015.a4-factory-074b7f51.zip"
+            },
+            {
+                "FullVersionName": "12.0.0 (SD1A.210817.019.B1, Oct 2021, AT&T)",
+                "Version": "12.0.0",
+                "AndroidVersion": 12,
+                "BuildVersion": "SD1A.210817.019.B1",
+                "BuildDate": "Oct 2021",
+                "Extras": [
+                    "AT&T"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sd1a.210817.019.b1-factory-1309fcfa.zip"
+            },
+            {
+                "FullVersionName": "12.0.0 (SD1A.210817.019.C2, Oct 2021, T-Mobile (US), USCC, Google Fi, CA, & TW carriers)",
+                "Version": "12.0.0",
+                "AndroidVersion": 12,
+                "BuildVersion": "SD1A.210817.019.C2",
+                "BuildDate": "Oct 2021",
+                "Extras": [
+                    "T-Mobile (US)",
+                    "USCC",
+                    "Google Fi",
+                    "CA",
+                    "TW carriers"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sd1a.210817.019.c2-factory-b1907625.zip"
+            },
+            {
+                "FullVersionName": "12.0.0 (SD1A.210817.019.C4, Oct 2021, Verizon)",
+                "Version": "12.0.0",
+                "AndroidVersion": 12,
+                "BuildVersion": "SD1A.210817.019.C4",
+                "BuildDate": "Oct 2021",
+                "Extras": [
+                    "Verizon"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sd1a.210817.019.c4-factory-c88261cb.zip"
+            },
+            {
+                "FullVersionName": "12.0.0 (SD1A.210817.036, Nov 2021)",
+                "Version": "12.0.0",
+                "AndroidVersion": 12,
+                "BuildVersion": "SD1A.210817.036",
+                "BuildDate": "Nov 2021",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sd1a.210817.036-factory-297ee25a.zip"
+            },
+            {
+                "FullVersionName": "12.0.0 (SD1A.210817.036.A8, Nov 2021, Verizon)",
+                "Version": "12.0.0",
+                "AndroidVersion": 12,
+                "BuildVersion": "SD1A.210817.036.A8",
+                "BuildDate": "Nov 2021",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sd1a.210817.036.a8-factory-65854912.zip"
+            },
+            {
+                "FullVersionName": "12.0.0 (SD1A.210817.037, Nov 2021)",
+                "Version": "12.0.0",
+                "AndroidVersion": 12,
+                "BuildVersion": "SD1A.210817.037",
+                "BuildDate": "Nov 2021",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sd1a.210817.037-factory-ae9f34e0.zip"
+            },
+            {
+                "FullVersionName": "12.0.0 (SD1A.210817.037.A1, Nov 2021, Verizon)",
+                "Version": "12.0.0",
+                "AndroidVersion": 12,
+                "BuildVersion": "SD1A.210817.037.A1",
+                "BuildDate": "Nov 2021",
+                "Extras": [
+                    "Verizon"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sd1a.210817.037.a1-factory-de27b0ae.zip"
+            },
+            {
+                "FullVersionName": "12.0.0 (SQ1D.220105.007, Jan 2022)",
+                "Version": "12.0.0",
+                "AndroidVersion": 12,
+                "BuildVersion": "SQ1D.220105.007",
+                "BuildDate": "Jan 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sq1d.220105.007-factory-eab95d36.zip"
+            },
+            {
+                "FullVersionName": "12.0.0 (SQ1D.220205.003, Feb 2022)",
+                "Version": "12.0.0",
+                "AndroidVersion": 12,
+                "BuildVersion": "SQ1D.220205.003",
+                "BuildDate": "Feb 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sq1d.220205.003-factory-a5a63f2a.zip"
+            },
+            {
+                "FullVersionName": "12.0.0 (SQ1D.220205.004, Feb 2022)",
+                "Version": "12.0.0",
+                "AndroidVersion": 12,
+                "BuildVersion": "SQ1D.220205.004",
+                "BuildDate": "Feb 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sq1d.220205.004-factory-eb39151c.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SP2A.220305.013.A3, Mar 2022)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SP2A.220305.013.A3",
+                "BuildDate": "Mar 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sp2a.220305.013.a3-factory-8bea92d1.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SP2A.220405.004, Apr 2022)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SP2A.220405.004",
+                "BuildDate": "Apr 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sp2a.220405.004-factory-f560807e.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SP2A.220505.002, May 2022)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SP2A.220505.002",
+                "BuildDate": "May 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sp2a.220505.002-factory-3238ed95.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SQ3A.220605.009.A1, Jun 2022, Verizon)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SQ3A.220605.009.A1",
+                "BuildDate": "Jun 2022",
+                "Extras": [
+                    "Verizon"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sq3a.220605.009.a1-factory-d9064c59.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SQ3A.220605.009.B1, Jun 2022)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SQ3A.220605.009.B1",
+                "BuildDate": "Jun 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sq3a.220605.009.b1-factory-80f98167.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SQ3A.220705.001.B1, Jul 2022, EMEA/APAC carriers)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SQ3A.220705.001.B1",
+                "BuildDate": "Jul 2022",
+                "Extras": [
+                    "EMEA/APAC carriers"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sq3a.220705.001.b1-factory-1e87de1b.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SQ3A.220705.003, Jul 2022)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SQ3A.220705.003",
+                "BuildDate": "Jul 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sq3a.220705.003-factory-4ec7503a.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SQ3A.220705.003.A1, Jul 2022, Verizon, Verizon MVNOs)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SQ3A.220705.003.A1",
+                "BuildDate": "Jul 2022",
+                "Extras": [
+                    "Verizon",
+                    "Verizon MVNOs"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sq3a.220705.003.a1-factory-66e78a21.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SQ3A.220705.003.A3, Jul 2022, Verizon, Verizon MVNOs)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SQ3A.220705.003.A3",
+                "BuildDate": "Jul 2022",
+                "Extras": [
+                    "Verizon",
+                    "Verizon MVNOs"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sq3a.220705.003.a3-factory-a9bb7750.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SQ3A.220705.004.A1, Jul 2022, Softbank)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SQ3A.220705.004.A1",
+                "BuildDate": "Jul 2022",
+                "Extras": [
+                    "Softbank"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sq3a.220705.004.a1-factory-1fb143dd.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SQ3A.220705.004, Jul 2022)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SQ3A.220705.004",
+                "BuildDate": "Jul 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sq3a.220705.004-factory-b6f37423.zip"
+            },
+            {
+                "FullVersionName": "12.1.0 (SQ3A.220705.001.B2, Jul 2022, EMEA)",
+                "Version": "12.1.0",
+                "AndroidVersion": 12.1,
+                "BuildVersion": "SQ3A.220705.001.B2",
+                "BuildDate": "Jul 2022",
+                "Extras": [
+                    "EMEA"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-sq3a.220705.001.b2-factory-acf55813.zip"
+            },
+            {
+                "FullVersionName": "13.0.0 (TP1A.220624.021, Aug 2022)",
+                "Version": "13.0.0",
+                "AndroidVersion": 13,
+                "BuildVersion": "TP1A.220624.021",
+                "BuildDate": "Aug 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-tp1a.220624.021-factory-4bd6cec7.zip"
+            },
+            {
+                "FullVersionName": "13.0.0 (TP1A.220905.004, Sep 2022)",
+                "Version": "13.0.0",
+                "AndroidVersion": 13,
+                "BuildVersion": "TP1A.220905.004",
+                "BuildDate": "Sep 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-tp1a.220905.004-factory-b7d576f5.zip"
+            },
+            {
+                "FullVersionName": "13.0.0 (TP1A.220905.004.A1, Sep 2022, Verizon, Verizon MVNOs)",
+                "Version": "13.0.0",
+                "AndroidVersion": 13,
+                "BuildVersion": "TP1A.220905.004.A1",
+                "BuildDate": "Sep 2022",
+                "Extras": [
+                    "Verizon",
+                    "Verizon MVNOs"
+                ],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-tp1a.220905.004.a1-factory-8b8585b2.zip"
+            },
+            {
+                "FullVersionName": "13.0.0 (TP1A.221005.002, Oct 2022)",
+                "Version": "13.0.0",
+                "AndroidVersion": 13,
+                "BuildVersion": "Tp1A.221005.002",
+                "BuildDate": "Oct 2022",
+                "Extras": [],
+                "Link": "https://dl.google.com/dl/android/aosp/oriole-tp1a.221005.002-factory-f28b656e.zip"
+            }
+        ]
+    }
+]
